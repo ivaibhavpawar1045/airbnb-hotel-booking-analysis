@@ -32,8 +32,16 @@ into understandable and actionable insights.
 
 ## 📊 Dataset
 
-The project uses an Airbnb hotel/listing dataset containing information
-related to:
+The project uses the **Airbnb Open Data** dataset obtained from Kaggle.
+
+**Dataset Source:**  
+https://www.kaggle.com/datasets/arianazmoudeh/airbnbopendata
+
+The original dataset contains **102,599 records and 26 columns**. After data
+cleaning and duplicate listing removal, **102,058 unique listings** and
+**22 features** were retained for analysis.
+
+The dataset contains information related to:
 
 -   Listing ID
 -   Host details
@@ -55,10 +63,10 @@ related to:
 
 ### Dataset Size
 
-After data cleaning and duplicate listing removal:
-
--   **Unique listings analyzed:** 102,058
--   **Features used:** 22
+-   **Original records:** 102,599
+-   **Original columns:** 26
+-   **Unique listings analyzed after cleaning:** 102,058
+-   **Features used after cleaning:** 22
 
 ------------------------------------------------------------------------
 
